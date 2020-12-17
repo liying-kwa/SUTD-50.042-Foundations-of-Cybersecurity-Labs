@@ -1,0 +1,41 @@
+# 50.042 FCS Lab 6 Diffie-Hellman Key Exchange
+# Year 2020
+# Student: Kwa Li Ying (1003833)
+
+
+
+Section 6 Write-up
+
+
+Time taken to break n-bit-key using Baby-Step Giant-Step Method
+
+n = 16 bits: 0.01s
+n = 17 bits: 0.02s
+n = 18 bits: 0.03s
+n = 19 bits: 0.05s
+n = 20 bits: 0.06s
+
+n = 21 bits: 0.17s
+n = 22 bits: 0.3s
+n = 23 bits: 0.5s
+n = 24 bits: 1.4s
+n = 25 bits: 2s
+n = 26 bits: 5s
+n = 27 bits: 8s
+n = 28 bits: 11s
+n = 29 bits: 30s
+n = 30 bits: 70s
+
+n = 31 bits: 100s
+n = 32 bits: 350s
+n = 33 bits: 550s
+n = 34 bits: 1050s
+n = 35 bits: 1720s
+...
+n = 40 bits: I ran it for a few hours and it's still running
+
+
+By observation, 40 bits should be in the key protocol as it takes at least a few hours to break the shared key using Baby-Step Giant-Steps method.
+
+
+

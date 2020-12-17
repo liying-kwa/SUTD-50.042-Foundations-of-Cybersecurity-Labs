@@ -1,0 +1,11 @@
+# Section 6
+
+I used an online hash decryptor, hashes.com, to crack the hashes.
+
+The website returns a list of passwords in the form of <hash>:<password>.
+
+Although its mechanism is not properly documented and it is not an open source tool, my deduction is as follows:
+
+They have a huge database of hash-to-passwords, as it is stated on their website that "We have been building our hash database since August 2007." From this statement, I believe that there are rainbow tables and what the website does is similar to how rainbowcracker looks up passwords in rainbow tables to matches the hashes to their corresponding passwords. 
+
+It is unclear how these password-to-hashes are generated, but referring to their statement "We have been building our hash database since August 2007." again, I would think that they include hashes of more common passwords used by people rather than brute force passwords and hash them.

@@ -1,0 +1,7 @@
+# Section 5
+
+Intuitively, salted rcrack strategies would generally take a longer time to find the corresponding plaintext in the rainbow table as compared to non-salted rcrack strategies, as there is a much bigger space of possible hash-to-password pairs.
+
+However, using rcrack to solve the non-salted hashes took 16.234s while using rcrack to solve the salted hashes took 15.028s. This is against the expectations stated earlier as the time taken to solve the non-salted hashes is slightly longer than that of the salted hashes.
+
+It is also worthy to note that many of the hashes for the salted hashes are not found as the rcrack only manages to find 8 out of 15 of them, whereas all of the 15 non-salted hashes are found in the rainbow table. It may be the case where it takes longer to write a found hash than report that the hash is not found, thus leading to the results as stated.
